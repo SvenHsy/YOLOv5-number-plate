@@ -1,6 +1,6 @@
 # 手把手教你使用YOLOV5训练自己的目标检测模型
 
-大家好，这里是肆十二（dejahu），好几个月没有更新了，这两天看了一下关注量，突然多了1k多个朋友关注，想必都是大作业系列教程来的小伙伴。既然有这么多朋友关注这个大作业系列，并且也差不多到了毕设开题和大作业提交的时间了，那我直接就是一波更新。这期的内容相对于上期的果蔬分类和垃圾识别无论是在内容还是新意上我们都进行了船新的升级，我们这次要使用YOLOV5来训练一个口罩检测模型，比较契合当下的疫情，并且目标检测涉及到的知识点也比较多，这次的内容除了可以作为大家的大作业之外，也可以作为一些小伙伴的毕业设计。废话不多说，我们直接开始今天的内容。
+大家好，这里是Sven。废话不多说，我们直接开始今天的内容。
 
 > B站讲解视频：[手把手教你使用YOLOV5训练自己的目标检测模型_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1YL4y1J7xz)
 >
@@ -13,10 +13,6 @@
 > 更多相关的数据集：[目标检测数据集清单-附赠YOLOV5模型训练和使用教程_dejahu的博客-CSDN博客](https://blog.csdn.net/ECHOSON/article/details/121892887)
 
 先来看看我们要实现的效果，我们将会通过数据来训练一个口罩检测的模型，并用pyqt5进行封装，实现图片口罩检测、视频口罩检测和摄像头实时口罩检测的功能。
-
-![image-20211212181048969](https://vehicle4cm.oss-cn-beijing.aliyuncs.com/typoraimgs/image-20211212181048969.png)
-
-![image-20211212194124635](https://vehicle4cm.oss-cn-beijing.aliyuncs.com/typoraimgs/image-20211212194124635.png)
 
 ## 下载代码
 
@@ -279,21 +275,8 @@ python val.py --data data/mask_data.yaml --weights runs/train/exp_yolov5s/weight
 
 ![image-20211212194914890](https://vehicle4cm.oss-cn-beijing.aliyuncs.com/typoraimgs/image-20211212194914890.png)
 
-## 找到我
 
-你可以通过这些方式来寻找我。
 
-B站：[肆十二-](https://space.bilibili.com/161240964)
-
-CSDN：[肆十二](https://blog.csdn.net/ECHOSON)
-
-知乎：[肆十二 ](https://www.zhihu.com/people/song-chen-ming-28)
-
-微博：[肆十二-](https://weibo.com/u/5999979327)
-
-现在关注以后就是老朋友喽！
-
-![image-20211212195912911](https://vehicle4cm.oss-cn-beijing.aliyuncs.com/typoraimgs/image-20211212195912911.png)
 
 
 
